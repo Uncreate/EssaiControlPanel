@@ -17,8 +17,8 @@
     "Show2dDrawing4MissingPicture" : true,
     "ShowToolTabsInAdminModeOnly" : true,
     "PrettyPrintJSON" : true,
-    "EnableProgrammersView" : true,
-    "EnableShopFloorView" : true,
+    "EnableProgrammersView" : false,
+    "EnableShopFloorView" : false,
     "DebugChuck" : false,
     "DebugWM_COPYDATA" : false,
     "CheckForUpdatedDatabase_Milliseconds": 10000
