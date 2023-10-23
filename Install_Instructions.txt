@@ -1,0 +1,27 @@
+  The install of "EssaiControlPanel" consists of 3 parts. Extracting
+the ZIP to a folder, registering the .NET dll, and setting the COM port number.
+
+// Step 1
+- Create a folder named "C:\EssaiControlPanel" on the root in c:\ drive.
+- Extract the ZIP contents directly to that folder (make sure no subfolders exists from extracting ZIP)
+
+// Step 2
+- Open a Command Prompt with "Run as Administrator"
+- Run the following line to register the .NET dll
+  "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe" "C:\EssaiControlPanel\Balluffwrapper.dll"
+**Note: The "v4.0.30319" version of .NET maybe different on each computer, replace "v4.0.30319" with highest version on target computer
+
+// Step 3
+- Open device manager and find out the COM port number being used by the RFID device
+- Open the "config.txt" and change the number next to "port" to match COM port on computer. (Found in "Balluff_settings" group in config.txt)
+
+
+**Note**
+- Application assumed that "some version of .NET is installed". (Almost every program requires .NET nowadays)
+  If the computer does not have .NET, you can install any version higher than 4.0 directly from Microsoft
+- Application is using "Microsoft Redistributables 2015", but for simplicity I have included the following DLLs in the application folder
+  This bypasses the need to install "Microsoft Redistributables 2015" package.
+  If you prefer to use the install package, then install them and delete the following DLLs out of the application folder
+   ..msvcp140.dll
+   ..vcruntime140.dll
+

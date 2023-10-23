@@ -1,0 +1,28 @@
+{
+    "dialogPositions": [
+        {
+            "dialog": "MachOldToolsDlg",
+            "left": 1751,
+            "top": 695,
+            "right": 2182,
+            "bottom": 1073
+        },
+        {
+            "dialog": "RfidReadDlg",
+            "left": 42,
+            "top": 48,
+            "right": 1555,
+            "bottom": 1065
+        },
+        {
+            "dialog": "ToolListVsMachineDlg",
+            "left": 973,
+            "top": 165,
+            "right": 1318,
+            "bottom": 532
+        }
+    ],
+    "generalSettings": {
+        "FolderExportXls": "C:\\EssaiControlPanel\\excel\\"
+    }
+}

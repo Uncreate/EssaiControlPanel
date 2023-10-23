@@ -1,0 +1,256 @@
+{"ToolGroups":[
+    {
+    "dataName": "EM",
+    "description": "Endmill",
+    "bHasFinish": true,
+    "numStart": 1000,
+    "numEnd": 1999,
+    "numStartFin": 2000,
+    "numEndFin": 2999,
+    "numCurr": 1203,
+    "numCurrFin": 2404
+    },
+    {
+    "dataName": "BA",
+    "description": "Ballmill",
+    "bHasFinish": true,
+    "numStart": 3000,
+    "numEnd": 3999,
+    "numStartFin": 4000,
+    "numEndFin": 4999,
+    "numCurr": 3068,
+    "numCurrFin": 4078
+    },
+    {
+    "dataName": "BU",
+    "description": "Bullmill",
+    "bHasFinish": true,
+    "numStart": 5000,
+    "numEnd": 5999,
+    "numStartFin": 6000,
+    "numEndFin": 6999,
+    "numCurr": 5055,
+    "numCurrFin": 6044
+    },
+    {
+    "dataName": "LP",
+    "description": "Lollipop mill",
+    "bHasFinish": true,
+    "numStart": 7000,
+    "numEnd": 7999,
+    "numStartFin": 8000,
+    "numEndFin": 8999,
+    "numCurr": 7000,
+    "numCurrFin": 8000
+    },
+    {
+    "dataName": "FM",
+    "description": "Facemill",
+    "bHasFinish": true,
+    "numStart": 9000,
+    "numEnd": 9999,
+    "numStartFin": 10000,
+    "numEndFin": 10999,
+    "numCurr": 9014,
+    "numCurrFin": 10020
+    },
+    {
+    "dataName": "DO",
+    "description": "Dovetail mill",
+    "bHasFinish": true,
+    "numStart": 11000,
+    "numEnd": 11999,
+    "numStartFin": 12000,
+    "numEndFin": 12999,
+    "numCurr": 11000,
+    "numCurrFin": 12000
+    },
+    {
+    "dataName": "CM",
+    "description": "Chamfer mill",
+    "bHasFinish": true,
+    "numStart": 13000,
+    "numEnd": 13999,
+    "numStartFin": 14000,
+    "numEndFin": 14999,
+    "numCurr": 13014,
+    "numCurrFin": 14076
+    },
+    {
+    "dataName": "CR",
+    "description": "Corner Round mill",
+    "bHasFinish": true,
+    "numStart": 15000,
+    "numEnd": 15999,
+    "numStartFin": 16000,
+    "numEndFin": 16999,
+    "numCurr": 15000,
+    "numCurrFin": 16000
+    },
+    {
+    "dataName": "DA",
+    "description": "Double Angle Shank Cutter",
+    "bHasFinish": true,
+    "numStart": 17000,
+    "numEnd": 17999,
+    "numStartFin": 18000,
+    "numEndFin": 18999,
+    "numCurr": 17004,
+    "numCurrFin": 18004
+    },
+    {
+    "dataName": "KC",
+    "description": "Key Cutter",
+    "bHasFinish": true,
+    "numStart": 19000,
+    "numEnd": 19999,
+    "numStartFin": 20000,
+    "numEndFin": 20999,
+    "numCurr": 19004,
+    "numCurrFin": 20006
+    },
+    {
+    "dataName": "SS",
+    "description": "Slitter Saw",
+    "bHasFinish": true,
+    "numStart": 21000,
+    "numEnd": 21999,
+    "numStartFin": 22000,
+    "numEndFin": 22999,
+    "numCurr": 21000,
+    "numCurrFin": 22000
+    },
+    {
+    "dataName": "SD",
+    "description": "Spot Drill",
+    "bHasFinish": true,
+    "numStart": 23000,
+    "numEnd": 23999,
+    "numStartFin": 24000,
+    "numEndFin": 24999,
+    "numCurr": 23000,
+    "numCurrFin": 24037
+    },
+    {
+    "dataName": "CS",
+    "description": "Countersink",
+    "bHasFinish": true,
+    "numStart": 25000,
+    "numEnd": 25999,
+    "numStartFin": 26000,
+    "numEndFin": 26999,
+    "numCurr": 25004,
+    "numCurrFin": 26095
+    },
+    {
+    "dataName": "DS",
+    "description": "Drill Stub",
+    "bHasFinish": true,
+    "numStart": 27000,
+    "numEnd": 27999,
+    "numStartFin": 28000,
+    "numEndFin": 28999,
+    "numCurr": 27004,
+    "numCurrFin": 28531
+    },
+    {
+    "dataName": "DJ",
+    "description": "Drill Jobber",
+    "bHasFinish": true,
+    "numStart": 29000,
+    "numEnd": 29999,
+    "numStartFin": 30000,
+    "numEndFin": 30999,
+    "numCurr": 29000,
+    "numCurrFin": 30323
+    },
+    {
+    "dataName": "DT",
+    "description": "Drill Taper",
+    "bHasFinish": true,
+    "numStart": 31000,
+    "numEnd": 31999,
+    "numStartFin": 32000,
+    "numEndFin": 32999,
+    "numCurr": 31000,
+    "numCurrFin": 32035
+    },
+    {
+    "dataName": "CD",
+    "description": "Circuitboard Drill",
+    "bHasFinish": true,
+    "numStart": 33000,
+    "numEnd": 33999,
+    "numStartFin": 34000,
+    "numEndFin": 34999,
+    "numCurr": 33124,
+    "numCurrFin": 34124
+    },
+    {
+    "dataName": "RM",
+    "description": "Reamer",
+    "bHasFinish": false,
+    "numStart": 0,
+    "numEnd": 0,
+    "numStartFin": 35000,
+    "numEndFin": 35999,
+    "numCurr": 0,
+    "numCurrFin": 35065
+    },
+    {
+    "dataName": "CT",
+    "description": "Cut Tap",
+    "bHasFinish": true,
+    "numStart": 0,
+    "numEnd": 0,
+    "numStartFin": 36000,
+    "numEndFin": 36999,
+    "numCurr": 0,
+    "numCurrFin": 36111
+    },
+    {
+    "dataName": "RT",
+    "description": "Roll Form Tap",
+    "bHasFinish": true,
+    "numStart": 0,
+    "numEnd": 0,
+    "numStartFin": 37000,
+    "numEndFin": 37999,
+    "numCurr": 0,
+    "numCurrFin": 37064
+    },
+    {
+    "dataName": "TM",
+    "description": "Thread Mill Straight",
+    "bHasFinish": true,
+    "numStart": 0,
+    "numEnd": 0,
+    "numStartFin": 38000,
+    "numEndFin": 38999,
+    "numCurr": 0,
+    "numCurrFin": 38000
+    },
+    {
+    "dataName": "DC",
+    "description": "Coolant Thru Drill",
+    "bHasFinish": true,
+    "numStart": 39000,
+    "numEnd": 39999,
+    "numStartFin": 40000,
+    "numEndFin": 40999,
+    "numCurr": 39008,
+    "numCurrFin": 40068
+    },
+    {
+    "dataName": "TE",
+    "description": "Tapered Endmill",
+    "bHasFinish": true,
+    "numStart": 41000,
+    "numEnd": 41999,
+    "numStartFin": 42000,
+    "numEndFin": 42999,
+    "numCurr": 41004,
+    "numCurrFin": 42004
+    }
+  ]
+}

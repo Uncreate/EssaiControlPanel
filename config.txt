@@ -1,0 +1,1586 @@
+{
+  "version": 1.0,
+  "toolDBFile": "C:\\EssaiControlPanel\\MasterToolDatabase.txt",
+  "inventoryCsvFile": "C:\\EssaiControlPanel\\Inventory.csv",
+  "options": {
+    "ShowExcel": true,
+    "StatusUpdate_Milliseconds": 300,
+    "BOM_UseUpdatedToolNumbers": true,
+    "BOM_SkipToolsWithExistingEssaiPartNum": false,
+    "ToolDB_log_ToolGroups": true,
+    "ToolDB_log_ToolGroups_CSV": true,
+    "ToolDB_log_ToolItems": true,
+    "ToolDB_log_ToolItems_CSV": true,
+    "CopyTo_hide_HSK50": true,
+    "Enable_save_database" : true,
+    "Show2dDrawingGUI" : true,
+    "Show2dDrawing4MissingPicture" : true,
+    "ShowToolTabsInAdminModeOnly" : true,
+    "PrettyPrintJSON" : true,
+    "EnableProgrammersView" : true,
+    "DebugChuck" : false,
+    "DebugWM_COPYDATA" : false,
+    "CheckForUpdatedDatabase_Milliseconds": 10000
+  },
+  "toolDB": {
+    "materials": [
+      {
+        "name": "AL",
+        "description": "Aluminum"
+      },
+      {
+        "name": "CU",
+        "description": "Copper"
+      },
+      {
+        "name": "PG",
+        "description": "Plastic Glass"
+      },
+      {
+        "name": "PL",
+        "description": "Plastic"
+      },
+      {
+        "name": "S1",
+        "description": "Stainless soft"
+      }
+    ],
+    "tool_groups": [
+      {
+        "name": "EM",
+        "hasFinish": true,
+        "numStart": 1000,
+        "numEnd": 1999,
+        "numStartFin": 2000,
+        "numEndFin": 2999,
+        "description": "Endmill"
+      },
+      {
+        "name": "BA",
+        "hasFinish": true,
+        "numStart": 3000,
+        "numEnd": 3999,
+        "numStartFin": 4000,
+        "numEndFin": 4999,
+        "description": "Ballmill"
+      },
+      {
+        "name": "BU",
+        "hasFinish": true,
+        "numStart": 5000,
+        "numEnd": 5999,
+        "numStartFin": 6000,
+        "numEndFin": 6999,
+        "description": "Bullmill"
+      },
+      {
+        "name": "LP",
+        "hasFinish": true,
+        "numStart": 7000,
+        "numEnd": 7999,
+        "numStartFin": 8000,
+        "numEndFin": 8999,
+        "description": "Lollipop mill"
+      },
+      {
+        "name": "FM",
+        "hasFinish": true,
+        "numStart": 9000,
+        "numEnd": 9999,
+        "numStartFin": 10000,
+        "numEndFin": 10999,
+        "description": "Facemill"
+      },
+      {
+        "name": "DO",
+        "hasFinish": true,
+        "numStart": 11000,
+        "numEnd": 11999,
+        "numStartFin": 12000,
+        "numEndFin": 12999,
+        "description": "Dovetail mill"
+      },
+      {
+        "name": "CM",
+        "hasFinish": true,
+        "numStart": 13000,
+        "numEnd": 13999,
+        "numStartFin": 14000,
+        "numEndFin": 14999,
+        "description": "Chamfer mill"
+      },
+      {
+        "name": "CR",
+        "hasFinish": true,
+        "numStart": 15000,
+        "numEnd": 15999,
+        "numStartFin": 16000,
+        "numEndFin": 16999,
+        "description": "Corner Round mill"
+      },
+      {
+        "name": "DA",
+        "hasFinish": true,
+        "numStart": 17000,
+        "numEnd": 17999,
+        "numStartFin": 18000,
+        "numEndFin": 18999,
+        "description": "Double Angle Shank Cutter"
+      },
+      {
+        "name": "KC",
+        "hasFinish": true,
+        "numStart": 19000,
+        "numEnd": 19999,
+        "numStartFin": 20000,
+        "numEndFin": 20999,
+        "description": "Key Cutter"
+      },
+      {
+        "name": "SS",
+        "hasFinish": true,
+        "numStart": 21000,
+        "numEnd": 21999,
+        "numStartFin": 22000,
+        "numEndFin": 22999,
+        "description": "Slitter Saw"
+      },
+      {
+        "name": "SD",
+        "hasFinish": true,
+        "numStart": 23000,
+        "numEnd": 23999,
+        "numStartFin": 24000,
+        "numEndFin": 24999,
+        "description": "Spot Drill"
+      },
+      {
+        "name": "CS",
+        "hasFinish": true,
+        "numStart": 25000,
+        "numEnd": 25999,
+        "numStartFin": 26000,
+        "numEndFin": 26999,
+        "description": "Countersink"
+      },
+      {
+        "name": "DS",
+        "hasFinish": true,
+        "numStart": 27000,
+        "numEnd": 27999,
+        "numStartFin": 28000,
+        "numEndFin": 28999,
+        "description": "Drill Stub"
+      },
+      {
+        "name": "DJ",
+        "hasFinish": true,
+        "numStart": 29000,
+        "numEnd": 29999,
+        "numStartFin": 30000,
+        "numEndFin": 30999,
+        "description": "Drill Jobber"
+      },
+      {
+        "name": "DT",
+        "hasFinish": true,
+        "numStart": 31000,
+        "numEnd": 31999,
+        "numStartFin": 32000,
+        "numEndFin": 32999,
+        "description": "Drill Taper"
+      },
+      {
+        "name": "CD",
+        "hasFinish": true,
+        "numStart": 33000,
+        "numEnd": 33999,
+        "numStartFin": 34000,
+        "numEndFin": 34999,
+        "description": "Circuitboard Drill"
+      },
+      {
+        "name": "RM",
+        "hasFinish": false,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 35000,
+        "numEndFin": 35999,
+        "description": "Reamer"
+      },
+      {
+        "name": "CT",
+        "hasFinish": true,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 36000,
+        "numEndFin": 36999,
+        "description": "Cut Tap"
+      },
+      {
+        "name": "RT",
+        "hasFinish": true,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 37000,
+        "numEndFin": 37999,
+        "description": "Roll Form Tap"
+      },
+      {
+        "name": "TM",
+        "hasFinish": true,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 38000,
+        "numEndFin": 38999,
+        "description": "Thread Mill Straight"
+      },
+      {
+        "name": "DC",
+        "hasFinish": true,
+        "numStart": 39000,
+        "numEnd": 39999,
+        "numStartFin": 40000,
+        "numEndFin": 40999,
+        "description": "Coolant Thru Drill"
+     },
+      {
+        "name": "TE",
+        "hasFinish": true,
+        "numStart": 41000,
+        "numEnd": 41999,
+        "numStartFin": 42000,
+        "numEndFin": 42999,
+        "description": "Tapered Endmill"
+      }
+    ]
+  },
+  "controllers": [
+    {
+      "type": "Solfex"
+    },
+    {
+      "type": "HEID_530"
+    },
+    {
+      "type": "HEID_640"
+    }
+  ],
+  "Balluff_settings": {
+    "port": "3"
+  },
+  "RFID_structure": [
+    {
+      "controller": "Solfex",
+      "data_fields": [
+        {
+          "DataName": "NAME",
+          "Description": "Name used in TOOL CALL",
+          "DataType": "ASCII",
+          "StartPosition": 1,
+          "Length": 16,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "DOC",
+          "Description": "Controller Description",
+          "DataType": "ASCII",
+          "StartPosition": 231,
+          "Length": 16,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "TYP",
+          "Description": "Tool type iTNC(MILL, DRILL, TAP...)",
+          "DataType": "ASCII",
+          "StartPosition": 103,
+          "Length": 5,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "TYP1",
+          "Description": "Tool type 530 controller",
+          "DataType": "ASCII",
+          "StartPosition": 221,
+          "Length": 10,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "TYP2",
+          "Description": "Tool type iTNC640(MILL, DRILL, TAP...)",
+          "DataType": "INT",
+          "StartPosition": 260,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 255,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "L",
+          "Description": "Geometry Length",
+          "DataType": "NUM",
+          "StartPosition": 31,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "L-2",
+          "Description": "Geometry Length 2",
+          "DataType": "NUM",
+          "StartPosition": 70,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "L-3",
+          "Description": "Geometry Length 3",
+          "DataType": "NUM",
+          "StartPosition": 86,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "R",
+          "Description": "Geometry radius",
+          "DataType": "NUM",
+          "StartPosition": 35,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "R-2",
+          "Description": "Geometry radius 2",
+          "DataType": "NUM",
+          "StartPosition": 74,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "R-3",
+          "Description": "Geometry radius 3",
+          "DataType": "NUM",
+          "StartPosition": 90,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "R2",
+          "Description": "Geometry radius 2",
+          "DataType": "NUM",
+          "StartPosition": 39,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DL",
+          "Description": "Deviation length",
+          "DataType": "NUM",
+          "StartPosition": 43,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DL-2",
+          "Description": "Deviation length 2",
+          "DataType": "NUM",
+          "StartPosition": 78,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DL-3",
+          "Description": "Deviation length 3",
+          "DataType": "NUM",
+          "StartPosition": 94,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DR",
+          "Description": "Deviation radius",
+          "DataType": "NUM",
+          "StartPosition": 47,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DR-2",
+          "Description": "Deviation radius 2",
+          "DataType": "NUM",
+          "StartPosition": 82,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DR-3",
+          "Description": "Deviation radius 3",
+          "DataType": "NUM",
+          "StartPosition": 98,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "DR2",
+          "Description": "Deviation radius2",
+          "DataType": "NUM",
+          "StartPosition": 51,
+          "Length": 4,
+          "minValue": -99.9999,
+          "maxValue": 99.9999,
+          "scale": 100000,
+          "decimal": 5
+        },
+        {
+          "DataName": "LCUTS",
+          "Description": "Cutting Edge length",
+          "DataType": "NUM",
+          "StartPosition": 55,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "ANGLE",
+          "Description": "Maximum Plunging Angle",
+          "DataType": "NUM",
+          "StartPosition": 59,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 90,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "PITCH",
+          "Description": "Thread pitch",
+          "DataType": "NUM",
+          "StartPosition": 207,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "T-ANGLE",
+          "Description": "Point angle",
+          "DataType": "NUM",
+          "StartPosition": 203,
+          "Length": 4,
+          "minValue": -180,
+          "maxValue": 180,
+          "scale": 10000,
+          "decimal": 1
+        },
+        {
+          "DataName": "NMAX",
+          "Description": "Maximum speed",
+          "DataType": "INT",
+          "StartPosition": 157,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 999999,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "TIME1",
+          "Description": "Pre Warning Time Limit",
+          "DataType": "INT",
+          "StartPosition": 23,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 9999,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "TIME2",
+          "Description": "Tool Life Limit",
+          "DataType": "INT",
+          "StartPosition": 25,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 9999,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "CUR.TIME",
+          "Description": "Current Tool Life",
+          "DataType": "INT",
+          "StartPosition": 27,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 99999,
+          "scale": 60,
+          "decimal": 0
+        },
+        {
+          "DataName": "TL",
+          "Description": "Tool Locked?",
+          "DataType": "INT",
+          "StartPosition": 64,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 255,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "TT:L-OFFS",
+          "Description": "Tool Measurement - offset length",
+          "DataType": "NUM",
+          "StartPosition": 145,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "TT:L-OFFS-2",
+          "Description": "Tool Measurement - offset length",
+          "DataType": "NUM",
+          "StartPosition": 187,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "TT:L-OFFS-3",
+          "Description": "Tool Measurement - offset length",
+          "DataType": "NUM",
+          "StartPosition": 191,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "TT:R-OFFS",
+          "Description": "Tool Measurement - offset radius",
+          "DataType": "NUM",
+          "StartPosition": 149,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "LTOL",
+          "Description": "Length tolerance",
+          "DataType": "NUM",
+          "StartPosition": 141,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 0.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "RTOL",
+          "Description": "Radius tolerance",
+          "DataType": "NUM",
+          "StartPosition": 143,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 0.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "LBREAK",
+          "Description": "Tool breakage - length tolerance",
+          "DataType": "NUM",
+          "StartPosition": 153,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 3.2767,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "RBREAK",
+          "Description": "Tool breakage - radius tolerance",
+          "DataType": "NUM",
+          "StartPosition": 155,
+          "Length": 2,
+          "minValue": 0,
+          "maxValue": 0.9999,
+          "scale": 10000,
+          "decimal": 4
+        },
+        {
+          "DataName": "CUT.",
+          "Description": "Number of teeth",
+          "DataType": "INT",
+          "StartPosition": 102,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 20,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "DIRECT",
+          "Description": "Cutting direction",
+          "DataType": "ASCII",
+          "StartPosition": 140,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "P1",
+          "Description": "Collision diameter",
+          "DataType": "NUM",
+          "StartPosition": 175,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 1,
+          "decimal": 4
+        },
+        {
+          "DataName": "P8",
+          "Description": "Length Collision",
+          "DataType": "NUM",
+          "StartPosition": 183,
+          "Length": 4,
+          "minValue": 0,
+          "maxValue": 99999.9999,
+          "scale": 10000,
+          "decimal": 2
+        },
+        {
+          "DataName": "P2",
+          "Description": "Preselect ICS pressure",
+          "DataType": "NUM",
+          "StartPosition": 179,
+          "Length": 4,
+          "minValue": -99999.9999,
+          "maxValue": 99999.9999,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "PLC",
+          "Description": "Measure Length or Length and Radius",
+          "DataType": "INT",
+          "StartPosition": 63,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 255,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "PLC-VAL",
+          "Description": "PLC",
+          "DataType": "INT",
+          "StartPosition": 65,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 255,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "P3",
+          "Description": "Special Measurement Required",
+          "DataType": "INT",
+          "StartPosition": 174,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 1,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "INDEX",
+          "Description": "Number of Indexes",
+          "DataType": "INT",
+          "StartPosition": 69,
+          "Length": 1,
+          "minValue": 0,
+          "maxValue": 2,
+          "scale": 1,
+          "decimal": 0
+        },
+        {
+          "DataName": "TMAT",
+          "Description": "Tool material",
+          "DataType": "ASCII",
+          "StartPosition": 108,
+          "Length": 16,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        },
+        {
+          "DataName": "CDT",
+          "Description": "Cutting data table",
+          "DataType": "ASCII",
+          "StartPosition": 124,
+          "Length": 16,
+          "minValue": 0,
+          "maxValue": 0,
+          "scale": 0,
+          "decimal": 0
+        }
+      ]
+    }
+  ],
+  "SC_Tool_structure": [
+    {
+      "type": "milling_tool",
+      "data_fields": [
+        {
+          "DataName": "Tool",
+          "Description": "Tool Number",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "TurretNum",
+          "Description": "Turret Number",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Position",
+          "Description": "Station",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SubPosition",
+          "Description": "Position",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Permanent",
+          "Description": "Is Tool Permanent",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "IdNumber",
+          "Description": "Tool ID",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolType",
+          "Description": "SolidCAM Tool Type",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolUserType",
+          "Description": "User Tool Type",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "UnitsDiameter",
+          "Description": "Units Diameter",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Diameter",
+          "Description": "Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Angle",
+          "Description": "Angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Radius",
+          "Description": "Radius",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ProfileRadius",
+          "Description": "Profile Radius",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "NumTeeth",
+          "Description": "Number of flutes",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "ShoulderDiameter",
+          "Description": "Should diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ShoulderAngle",
+          "Description": "Should Angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Description",
+          "Description": "Description",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "TaperAngle",
+          "Description": "Taper Angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ShankDiameter",
+          "Description": "Shank Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "UnitsLength",
+          "Description": "Units Length",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Length",
+          "Description": "Length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TotalLength",
+          "Description": "Total length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ShoulderLength",
+          "Description": "Shoulder length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Startshoulderlength",
+          "Description": "Start shoulder length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TipLength",
+          "Description": "Tip length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "CuttingLength",
+          "Description": "Cutting length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "HLengthManual",
+          "Description": "H length manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "HLength",
+          "Description": "H length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "imHelicalAngle",
+          "Description": "Helical angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "UnitsFeedSpin",
+          "Description": "Units Feed Spin",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Ftype",
+          "Description": "Feed Type (F or FZ)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "FeedXY",
+          "Description": "Feed XY",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedZ",
+          "Description": "Feed Z",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedFinishManual",
+          "Description": "Feed Finish Manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedFinish",
+          "Description": "Feed finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedLeadIn",
+          "Description": "Feed Lead In %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedLeadOut",
+          "Description": "Feed,Lead Out %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedLink",
+          "Description": "Feed Link %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Stype",
+          "Description": "Spin Type (S or V)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Spin",
+          "Description": "Spin",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "SpinFinishManual",
+          "Description": "Spin Finish Manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SpinFinish",
+          "Description": "Spin Finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedZPenetration",
+          "Description": "Feed Z for penetration only",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "ToolName",
+          "Description": "Tool Shape name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolGroupName",
+          "Description": "Tool Shape Group name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "HolderName",
+          "Description": "Holder name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "GroupHolderName",
+          "Description": "Holder Group name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ChamferLength",
+          "Description": "Chamfer Finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TipDiameter",
+          "Description": "Tip Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Message1",
+          "Description": "Message 1",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message2",
+          "Description": "Message 2",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message3",
+          "Description": "Message 3",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message4",
+          "Description": "Message 4",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message5",
+          "Description": "Message 5",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "FloodCoolant",
+          "Description": "Flood Coolant (0=OFF, 1=ON)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "AirBlastCoolant",
+          "Description": "Active Air (0=CW, 1=CCW)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Rough",
+          "Description": "Roughing tool (0=OFF, 1=ON)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SpinDirection",
+          "Description": "Spin direction (CW or CCW)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ThreadingStandard",
+          "Description": "Threading Standard name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "NumThreads",
+          "Description": "Number of Vertical Threadmill teeth",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "ThreadStandardByUser",
+          "Description": "Thread standard by user (0=OFF, 1=ON)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Pitch",
+          "Description": "Pitch",
+          "DataType": "NUM"
+        }
+      ]
+    },
+    {
+      "type": "drilling_tool",
+      "data_fields": [
+        {
+          "DataName": "Tool",
+          "Description": "Tool Number",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "TurretNum",
+          "Description": "Turret Number",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Position",
+          "Description": "Station",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SubPosition",
+          "Description": "Position",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Permanent",
+          "Description": "Is Tool Permanent",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "IdNumber",
+          "Description": "Tool ID",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolType",
+          "Description": "SolidCAM Tool Type",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolUserType",
+          "Description": "User Tool Type",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "UnitsDiameter",
+          "Description": "Units Diameter",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Diameter",
+          "Description": "Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Angle",
+          "Description": "Angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Radius",
+          "Description": "Radius",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "NumTeeth",
+          "Description": "Number of flutes",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Description",
+          "Description": "Description",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "TaperAngle",
+          "Description": "Taper Angle",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ShankDiameter",
+          "Description": "Shank Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "UnitsLength",
+          "Description": "Units Length",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Length",
+          "Description": "Length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TotalLength",
+          "Description": "Total length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "ShoulderLength",
+          "Description": "Shoulder length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Startshoulderlength",
+          "Description": "Start shoulder length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TipLength",
+          "Description": "Tip length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "CuttingLength",
+          "Description": "Cutting length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "HLengthManual",
+          "Description": "H length manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "HLength",
+          "Description": "H length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "UnitsFeedSpin",
+          "Description": "Units Feed Spin (inch)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Ftype",
+          "Description": "Feed Type (F or Fz)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Ftype",
+          "Description": "Feed Type (F or FZ)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "FeedXY",
+          "Description": "Feed XY",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedZ",
+          "Description": "Feed Z",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedFinishManual",
+          "Description": "Feed Finish Manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedFinish",
+          "Description": "Feed finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedLeadIn",
+          "Description": "Feed Lead In %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedLeadOut",
+          "Description": "Feed,Lead Out %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "FeedLink",
+          "Description": "Feed Link %",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Stype",
+          "Description": "Spin Type (S or V)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Spin",
+          "Description": "Spin",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "SpinFinishManual",
+          "Description": "Spin Finish Manual",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SpinFinish",
+          "Description": "Spin Finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "FeedZPenetration",
+          "Description": "Feed Z for penetration only",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "ToolName",
+          "Description": "Tool Shape name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ToolGroupName",
+          "Description": "Tool Shape Group name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "HolderName",
+          "Description": "Holder name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "GroupHolderName",
+          "Description": "Holder Group name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "ChamferLength",
+          "Description": "Chamfer Finish",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "TipDiameter",
+          "Description": "Tip Diameter",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "Message1",
+          "Description": "Message 1",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message2",
+          "Description": "Message 2",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message3",
+          "Description": "Message 3",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message4",
+          "Description": "Message 4",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Message5",
+          "Description": "Message 5",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "FloodCoolant",
+          "Description": "Flood Coolant (0=OFF, 1=ON)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "AirBlastCoolant",
+          "Description": "Active Air (0=CW, 1=CCW)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "Rough",
+          "Description": "Roughing tool (0=OFF, 1=ON)",
+          "DataType": "INT"
+        },
+        {
+          "DataName": "SpinDirection",
+          "Description": "Spin direction (CW or CCW)",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Pitch",
+          "Description": "Pitch",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "PitchUnit",
+          "Description": "Pitch Unit (inch or mm or TPI)",
+          "DataType": "ASCII"
+        }
+      ]
+    },
+    {
+      "type": "shapes_tool",
+      "data_fields": [
+        {
+          "DataName": "Name",
+          "Description": "Name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "GroupName",
+          "Description": "Group name",
+          "DataType": "ASCII"
+        },
+        {
+          "DataName": "Length",
+          "Description": "Length",
+          "DataType": "NUM"
+        },
+        {
+          "DataName": "NEdges",
+          "Description": "Number of Edges",
+          "DataType": "ASCII"
+        }
+      ]
+    }
+  ],
+  "machines": [
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-01",
+      "IP": "192.168.201.203"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-02",
+      "IP": "192.168.201.204"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-03",
+      "IP": "192.168.201.202"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-04",
+      "IP": "192.168.201.201"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-05",
+      "IP": "192.168.202.203"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-06",
+      "IP": "192.168.202.204"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "Hp-07",
+      "IP": "192.168.202.202"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_530",
+      "Name": "HP-08",
+      "IP": "192.168.202.201"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-09",
+      "IP": "192.168.203.201"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-10",
+      "IP": "192.168.203.202"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-11",
+      "IP": "192.168.203.203"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-12",
+      "IP": "192.168.203.204"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-13",
+      "IP": "192.168.203.212"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-14",
+      "IP": "192.168.203.211"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-15",
+      "IP": "192.168.203.210"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-16",
+      "IP": "192.168.203.213"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-17",
+      "IP": "192.168.203.214"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-18",
+      "IP": "192.168.203.215"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-19",
+      "IP": "192.168.203.216"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-20",
+      "IP": "192.168.203.217"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-21",
+      "IP": "192.168.203.218"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-22",
+      "IP": "192.168.203.219"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-23",
+      "IP": "192.168.203.220"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-24",
+      "IP": "192.168.203.221"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-25",
+      "IP": "192.168.203.222"
+    },
+    {
+      "location": "Phoenix",
+      "Controller": "HEID_640",
+      "Name": "HP-26",
+      "IP": "192.168.71.92"
+    }
+  ]
+}
