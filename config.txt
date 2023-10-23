@@ -1,7 +1,7 @@
 {
   "version": 1.0,
   "toolDBFile": "C:\\EssaiControlPanel\\MasterToolDatabase.txt",
-  "inventoryCsvFile": "C:\\EssaiControlPanel\\Inventory.csv",
+  "inventoryCsvFile": "C:\\EssaiControlPanel\\location.csv",
   "options": {
     "ShowExcel": true,
     "StatusUpdate_Milliseconds": 300,
@@ -11,13 +11,14 @@
     "ToolDB_log_ToolGroups_CSV": true,
     "ToolDB_log_ToolItems": true,
     "ToolDB_log_ToolItems_CSV": true,
-    "CopyTo_hide_HSK50": true,
+    "CopyTo_hide_HSK50": false,
     "Enable_save_database" : true,
     "Show2dDrawingGUI" : true,
     "Show2dDrawing4MissingPicture" : true,
     "ShowToolTabsInAdminModeOnly" : true,
     "PrettyPrintJSON" : true,
     "EnableProgrammersView" : true,
+    "EnableShopFloorView" : true,
     "DebugChuck" : false,
     "DebugWM_COPYDATA" : false,
     "CheckForUpdatedDatabase_Milliseconds": 10000
