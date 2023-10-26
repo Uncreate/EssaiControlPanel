@@ -1,5 +1,5 @@
 dataName,description,bHasFinish,numStart,numEnd,numStartFin,numEndFin,numCurr,numCurrFin
-EM,Endmill,1,1000,1999,2000,2999,1203,2404
+EM,Endmill,1,1000,1999,2000,2999,1203,2405
 BA,Ballmill,1,3000,3999,4000,4999,3068,4078
 BU,Bullmill,1,5000,5999,6000,6999,5055,6044
 LP,Lollipop mill,1,7000,7999,8000,8999,7000,8000
