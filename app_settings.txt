@@ -23,6 +23,6 @@
         }
     ],
     "generalSettings": {
-        "FolderExportXls": "C:\\EssaiControlPanel\\excel\\"
+        "FolderExportXls": "C:\\EssaiControlPanel_GitHub\\excel\\"
     }
 }
