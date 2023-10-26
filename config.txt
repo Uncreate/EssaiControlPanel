@@ -1,7 +1,7 @@
 {
   "version": 1.0,
-  "toolDBFile": "C:\\EssaiControlPanel\\MasterToolDatabase.txt",
-  "inventoryCsvFile": "C:\\EssaiControlPanel\\location.csv",
+  "toolDBFile": "C:\\EssaiControlPanel_GitHub\\MasterToolDatabase.txt",
+  "inventoryCsvFile": "C:\\EssaiControlPanel_GitHub\\location.csv",
   "options": {
     "ShowExcel": true,
     "StatusUpdate_Milliseconds": 300,
