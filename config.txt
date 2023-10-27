@@ -1582,6 +1582,12 @@
       "Controller": "HEID_640",
       "Name": "HP-26",
       "IP": "192.168.71.92"
+    },
+    {
+      "location": "Chandler",
+      "Controller": "HEID_640",
+      "Name": "HC-01",
+      "IP": "10.127.100.101:19001"
     }
   ]
 }
