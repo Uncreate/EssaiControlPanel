@@ -1,14 +1,16 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  AL033124A
-  CU033124A
-  PL033124A
-  PG033124A
-  AL034124A
-  CU034124A
-  PL034124A
-  PG034124A
+  AL043000A
+  AL043000B
+  S1043000A
+  S1043000B
+  CU043000A
+  CU043000B
+  PL043000A
+  PL043000B
+  PG043000A
+  PG043000B
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -170,5 +172,5 @@ Shapes ignored:
   0.0200" Dia x 0.060 LOC - 2FLT SD x 60 Deg -MOD
   0.0063" Dia x 0..059 LOC - 2FLT CD x 130 Deg
   0.0310" Dia x 0.156 LOC - 2FLT CM x 30 Deg
-Shapes added: 
   0.0120" Dia x 0.216 LOC - 2FLT CD x 130 Deg
+Shapes added: 
