@@ -12,13 +12,13 @@
     "ToolDB_log_ToolItems": true,
     "ToolDB_log_ToolItems_CSV": false,
     "CopyTo_hide_HSK50": false,
-    "Enable_save_database" : true,
+    "Enable_save_database" : false,
     "Show2dDrawingGUI" : true,
     "Show2dDrawing4MissingPicture" : true,
     "ShowToolTabsInAdminModeOnly" : true,
     "PrettyPrintJSON" : true,
-    "EnableProgrammersView" : true,
-    "EnableShopFloorView" : true,
+    "EnableProgrammersView" : false,
+    "EnableShopFloorView" : false,
     "DebugChuck" : false,
     "DebugWM_COPYDATA" : false,
     "CheckForUpdatedDatabase_Milliseconds": 10000
@@ -268,7 +268,7 @@
     }
   ],
   "Balluff_settings": {
-    "port": "3"
+    "port": "4"
   },
   "RFID_structure": [
     {
@@ -337,7 +337,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -348,7 +348,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -359,7 +359,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -370,7 +370,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -381,7 +381,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -392,7 +392,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -403,7 +403,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 100000,
+          "scale": 10000,
           "decimal": 5
         },
         {
@@ -700,7 +700,7 @@
           "Length": 4,
           "minValue": -99999.9999,
           "maxValue": 99999.9999,
-          "scale": 1,
+          "scale": 10000,
           "decimal": 4
         },
         {
