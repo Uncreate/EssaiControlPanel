@@ -7,8 +7,8 @@
     "numEnd": 1999,
     "numStartFin": 2000,
     "numEndFin": 2999,
-    "numCurr": 1204,
-    "numCurrFin": 2406
+    "numCurr": 1206,
+    "numCurrFin": 2408
     },
     {
     "dataName": "BA",
@@ -129,7 +129,7 @@
     "numStartFin": 24000,
     "numEndFin": 24999,
     "numCurr": 23000,
-    "numCurrFin": 24037
+    "numCurrFin": 24039
     },
     {
     "dataName": "CS",

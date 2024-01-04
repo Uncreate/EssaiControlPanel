@@ -2,34 +2,27 @@
     "dialogPositions": [
         {
             "dialog": "MachOldToolsDlg",
-            "left": 701,
-            "top": 246,
-            "right": 1132,
-            "bottom": 624
+            "left": 1751,
+            "top": 695,
+            "right": 2182,
+            "bottom": 1073
         },
         {
             "dialog": "RfidReadDlg",
-            "left": 315,
-            "top": 303,
-            "right": 1351,
-            "bottom": 1112
+            "left": 74,
+            "top": 157,
+            "right": 1587,
+            "bottom": 1174
         },
         {
             "dialog": "ToolListVsMachineDlg",
-            "left": 1040,
-            "top": 191,
-            "right": 1385,
-            "bottom": 558
-        },
-        {
-            "dialog": "ToolOffsetDlg",
-            "left": 51,
-            "top": 163,
-            "right": 900,
-            "bottom": 967
+            "left": 973,
+            "top": 165,
+            "right": 1318,
+            "bottom": 532
         }
     ],
     "generalSettings": {
-        "FolderExportXls": ""
+        "FolderExportXls": "C:\\EssaiControlPanel_GitHub\\excel\\"
     }
 }
