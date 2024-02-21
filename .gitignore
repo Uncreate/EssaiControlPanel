@@ -3,3 +3,6 @@
 
 *.log
 config.txtconfig.txt
+
+excel/import_xls_report.txt
+app_settings.txt
