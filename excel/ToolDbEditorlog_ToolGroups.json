@@ -7,7 +7,7 @@
     "numEnd": 1999,
     "numStartFin": 2000,
     "numEndFin": 2999,
-    "numCurr": 1230,
+    "numCurr": 1231,
     "numCurrFin": 2424
     },
     {
@@ -73,8 +73,8 @@
     "numEnd": 13999,
     "numStartFin": 14000,
     "numEndFin": 14999,
-    "numCurr": 13015,
-    "numCurrFin": 14076
+    "numCurr": 13017,
+    "numCurrFin": 14078
     },
     {
     "dataName": "CR",
@@ -249,8 +249,8 @@
     "numEnd": 41999,
     "numStartFin": 42000,
     "numEndFin": 42999,
-    "numCurr": 41005,
-    "numCurrFin": 42005
+    "numCurr": 41011,
+    "numCurrFin": 42011
     },
     {
     "dataName": "EN",
