@@ -262,6 +262,17 @@
     "numEndFin": 43999,
     "numCurr": 0,
     "numCurrFin": 43001
+    },
+    {
+    "dataName": "MT",
+    "description": "Machine Tool",
+    "bHasFinish": true,
+    "numStart": 0,
+    "numEnd": 0,
+    "numStartFin": 99000,
+    "numEndFin": 99999,
+    "numCurr": 0,
+    "numCurrFin": 99001
     }
   ]
 }
