@@ -9,10 +9,10 @@
         },
         {
             "dialog": "RfidReadDlg",
-            "left": 74,
-            "top": 157,
-            "right": 1587,
-            "bottom": 1174
+            "left": 351,
+            "top": 87,
+            "right": 1864,
+            "bottom": 988
         },
         {
             "dialog": "ToolListVsMachineDlg",
@@ -23,6 +23,6 @@
         }
     ],
     "generalSettings": {
-        "FolderExportXls": "C:\\EssaiControlPanel_GitHub\\excel\\"
+        "FolderExportXls": "C:\\!Tool_Dump\\"
     }
 }
