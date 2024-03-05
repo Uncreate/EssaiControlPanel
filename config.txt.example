@@ -44,6 +44,10 @@
       {
         "name": "S1",
         "description": "Stainless soft"
+      },
+      {
+        "name": "SP",
+        "description": "Special"
       }
     ],
     "tool_groups": [
@@ -253,6 +257,24 @@
         "numStartFin": 42000,
         "numEndFin": 42999,
         "description": "Tapered Endmill"
+      },
+      {
+        "name": "EN",
+        "hasFinish": true,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 43000,
+        "numEndFin": 43999,
+        "description": "Engraving"
+      },
+      {
+        "name": "MT",
+        "hasFinish": true,
+        "numStart": 0,
+        "numEnd": 0,
+        "numStartFin": 99000,
+        "numEndFin": 99999,
+        "description": "Machine Tool"
       }
     ]
   },
