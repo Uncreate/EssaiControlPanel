@@ -7,7 +7,7 @@
     "numEnd": 1999,
     "numStartFin": 2000,
     "numEndFin": 2999,
-    "numCurr": 1223,
+    "numCurr": 42002,
     "numCurrFin": 2425
     },
     {
@@ -106,8 +106,8 @@
     "numEnd": 19999,
     "numStartFin": 20000,
     "numEndFin": 20999,
-    "numCurr": 19003,
-    "numCurrFin": 20005
+    "numCurr": 19004,
+    "numCurrFin": 20006
     },
     {
     "dataName": "SS",
@@ -139,8 +139,8 @@
     "numEnd": 25999,
     "numStartFin": 26000,
     "numEndFin": 26999,
-    "numCurr": 25000,
-    "numCurrFin": 26094
+    "numCurr": 25004,
+    "numCurrFin": 26095
     },
     {
     "dataName": "DS",
@@ -150,7 +150,7 @@
     "numEnd": 27999,
     "numStartFin": 28000,
     "numEndFin": 28999,
-    "numCurr": 27003,
+    "numCurr": 27004,
     "numCurrFin": 28532
     },
     {
@@ -206,7 +206,7 @@
     "numStartFin": 36000,
     "numEndFin": 36999,
     "numCurr": 0,
-    "numCurrFin": 36102
+    "numCurrFin": 36111
     },
     {
     "dataName": "RT",
@@ -217,7 +217,7 @@
     "numStartFin": 37000,
     "numEndFin": 37999,
     "numCurr": 0,
-    "numCurrFin": 37064
+    "numCurrFin": 37067
     },
     {
     "dataName": "TM",
