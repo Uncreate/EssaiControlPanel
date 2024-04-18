@@ -129,7 +129,7 @@
     "numStartFin": 24000,
     "numEndFin": 24999,
     "numCurr": 23000,
-    "numCurrFin": 24040
+    "numCurrFin": 24041
     },
     {
     "dataName": "CS",
@@ -183,8 +183,8 @@
     "numEnd": 33999,
     "numStartFin": 34000,
     "numEndFin": 34999,
-    "numCurr": 33125,
-    "numCurrFin": 34125
+    "numCurr": 33126,
+    "numCurrFin": 34126
     },
     {
     "dataName": "RM",
