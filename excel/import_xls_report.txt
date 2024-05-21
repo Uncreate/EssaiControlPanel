@@ -1,18 +1,9 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  S1019004A
-  S1019004B
-  CU019004A
-  CU019004B
-  PG019004A
-  PG019004B
-  S1020006A
-  S1020006B
-  CU020006A
-  CU020006B
-  PG020006A
-  PG020006B
+  S1012000A
+  CU012000A
+  PG012000A
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -180,3 +171,4 @@ Shapes ignored:
   0.0077" Dia x 0.140 LOC - 2FLT CD x 120 Deg
   0.0160" Dia x 0.230 LOC - 2FLT CD x 130 Deg
 Shapes added: 
+  0.0550" Dia x 0.054 LOC - 2FLT DO x 48 Deg
