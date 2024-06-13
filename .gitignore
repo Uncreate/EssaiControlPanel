@@ -2,7 +2,6 @@
 *.txt_bak_*
 
 *.log
-config.txtconfig.txt
-
-excel/import_xls_report.txt
+config.txt
 app_settings.txt
+excel/import_xls_report.txt
