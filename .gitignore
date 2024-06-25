@@ -1,7 +1,9 @@
 # Ignore backup files
-*.txt_bak_*
-
-*.log
 config.txt
 app_settings.txt
 excel/import_xls_report.txt
+Import_*.xlsx
+*.txt_bak_*
+
+*.log
+
