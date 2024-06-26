@@ -6,3 +6,7 @@ Import_*.xlsx
 *.txt_bak_*
 
 *.log
+Backups/*
+excel/.sort_xls.bat
+MasterToolDatabase_GOOD_BACKUP.txt
+MasterToolDatabase_test_backup.txt
