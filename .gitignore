@@ -4,8 +4,5 @@ app_settings.txt
 excel/import_xls_report.txt
 Import_*.xlsx
 *.txt_bak_*
-Backups/*
+
 *.log
-MasterToolDatabase_GOOD_BACKUP.txt
-MasterToolDatabase_test_backup.txt
-excel/.sort_xls.bat
