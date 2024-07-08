@@ -173,7 +173,7 @@
     "numStartFin": 32000,
     "numEndFin": 32999,
     "numCurr": 31000,
-    "numCurrFin": 32035
+    "numCurrFin": 32036
     },
     {
     "dataName": "CD",
@@ -251,28 +251,6 @@
     "numEndFin": 42999,
     "numCurr": 41012,
     "numCurrFin": 42012
-    },
-    {
-    "dataName": "EN",
-    "description": "Engraving",
-    "bHasFinish": true,
-    "numStart": 0,
-    "numEnd": 0,
-    "numStartFin": 43000,
-    "numEndFin": 43999,
-    "numCurr": 0,
-    "numCurrFin": 43001
-    },
-    {
-    "dataName": "MT",
-    "description": "Machine Tool",
-    "bHasFinish": true,
-    "numStart": 0,
-    "numEnd": 0,
-    "numStartFin": 99000,
-    "numEndFin": 99999,
-    "numCurr": 0,
-    "numCurrFin": 99003
     }
   ]
 }
