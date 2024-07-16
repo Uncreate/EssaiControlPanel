@@ -162,7 +162,7 @@
     "numStartFin": 30000,
     "numEndFin": 30999,
     "numCurr": 29000,
-    "numCurrFin": 30325
+    "numCurrFin": 30326
     },
     {
     "dataName": "DT",
@@ -217,7 +217,7 @@
     "numStartFin": 37000,
     "numEndFin": 37999,
     "numCurr": 0,
-    "numCurrFin": 37072
+    "numCurrFin": 37073
     },
     {
     "dataName": "TM",
