@@ -1,10 +1,10 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  CU035065A
-  CU035065B
-  CU035065C
-  CU035065D
+  CU038000A
+  CU038000B
+  CU038000C
+  CU038000D
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -172,4 +172,5 @@ Shapes ignored:
   0.0077" Dia x 0.140 LOC - 2FLT CD x 120 Deg
   0.0160" Dia x 0.230 LOC - 2FLT CD x 130 Deg
   Pressure Wash Tool
+  0.0827" Dia x 0.075 LOC - 4FLT TM x 40 TPI
 Shapes added: 
