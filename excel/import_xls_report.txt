@@ -1,11 +1,14 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  S1030326A
-  S1030326B
-  S1030326C
-  S1030326D
-  S1030326E
+  S1005070A
+  S1005070B
+  PG005070A
+  PG005070B
+  S1006059A
+  S1006059B
+  PG006059A
+  PG006059B
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
