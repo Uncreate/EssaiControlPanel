@@ -1,21 +1,14 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  S1038001A
-  S1038001B
-  S1038001C
-  S1038001D
-  S1038001E
-  CU038001A
-  CU038001B
-  CU038001C
-  CU038001D
-  CU038001E
-  PG038001A
-  PG038001B
-  PG038001C
-  PG038001D
-  PG038001E
+  AL033128A
+  CU033128A
+  PL033128A
+  PG033128A
+  AL034128A
+  CU034128A
+  PL034128A
+  PG034128A
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -185,3 +178,4 @@ Shapes ignored:
   Pressure Wash Tool
   0.0827" Dia x 0.075 LOC - 4FLT TM x 40 TPI
 Shapes added: 
+  0.0171" Dia x 0.2755 LOC - 2FLT CD x 130 Deg

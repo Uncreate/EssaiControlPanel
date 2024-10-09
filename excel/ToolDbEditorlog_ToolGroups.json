@@ -183,8 +183,8 @@
     "numEnd": 33999,
     "numStartFin": 34000,
     "numEndFin": 34999,
-    "numCurr": 33127,
-    "numCurrFin": 34127
+    "numCurr": 33129,
+    "numCurrFin": 34129
     },
     {
     "dataName": "RM",
@@ -228,7 +228,7 @@
     "numStartFin": 38000,
     "numEndFin": 38999,
     "numCurr": 0,
-    "numCurrFin": 38001
+    "numCurrFin": 38002
     },
     {
     "dataName": "DC",
