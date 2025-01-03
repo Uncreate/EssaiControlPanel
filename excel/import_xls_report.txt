@@ -1,8 +1,8 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  S1009015A
-  S1010021A
+  S1009016A
+  S1010022A
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -175,3 +175,4 @@ Shapes ignored:
   0.0470" Dia x 0.0680 LOC - 2FLT CR
   .740 - 8 THREADMILL
 Shapes added: 
+  2.0000" Dia x 0.047 LOC - 6FLT FM
