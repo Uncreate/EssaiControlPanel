@@ -1,21 +1,14 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  AL036113A
-  AL036113B
-  AL036113C
-  AL036113D
-  AL036113E
-  S1036113A
-  S1036113B
-  S1036113C
-  S1036113D
-  S1036113E
-  CU036113A
-  CU036113B
-  CU036113C
-  CU036113D
-  CU036113E
+  PL036114A
+  PL036114B
+  PL036114C
+  PL036114D
+  PG036114A
+  PG036114B
+  PG036114C
+  PG036114D
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -189,5 +182,6 @@ Shapes ignored:
   .740 - 8 THREADMILL
   2.0000" Dia x 0.047 LOC - 6FLT FM
   1/16-27 NPT
-Shapes added: 
   1/16-27 NPT x 6"
+Shapes added: 
+  6-40 CT SFB
