@@ -183,5 +183,5 @@ Shapes ignored:
   2.0000" Dia x 0.047 LOC - 6FLT FM
   1/16-27 NPT
   1/16-27 NPT x 6"
-Shapes added: 
   6-40 CT SFB
+Shapes added: 
