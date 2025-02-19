@@ -1,3 +1,4 @@
 # Ignore files for updaterepo
 app_settings.txt
 config.txt
+MasterToolDatabase.txt filter=lfs diff=lfs merge=lfs -text
