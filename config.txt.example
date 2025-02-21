@@ -1450,280 +1450,340 @@
   ],
   "machines": [
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-01",
-      "IP": "192.168.201.203"
+      "IP": "10.127.102.11:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-02",
-      "IP": "192.168.201.204"
+      "IP": "10.127.102.12:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-03",
-      "IP": "192.168.201.202"
+      "IP": "10.127.102.13:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-04",
-      "IP": "192.168.201.201"
+      "IP": "10.127.102.14:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-05",
-      "IP": "192.168.202.203"
+      "IP": "10.127.102.21:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-06",
-      "IP": "192.168.202.204"
+      "IP": "10.127.102.22:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "Hp-07",
-      "IP": "192.168.202.202"
+      "IP": "10.127.102.23:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_530",
       "Name": "HP-08",
-      "IP": "192.168.202.201"
+      "IP": "10.127.102.24:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-09",
-      "IP": "192.168.203.201"
+      "IP": "10.127.102.33:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-10",
-      "IP": "192.168.203.202"
+      "IP": "10.127.102.34:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-11",
-      "IP": "192.168.203.203"
+      "IP": "10.127.102.31:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-12",
-      "IP": "192.168.203.204"
+      "IP": "10.127.102.32:19000"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-13",
       "IP": "192.168.203.212"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-14",
       "IP": "192.168.203.211"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-15",
       "IP": "192.168.203.210"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-16",
       "IP": "192.168.203.213"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-17",
       "IP": "192.168.203.214"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-18",
       "IP": "192.168.203.215"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-19",
       "IP": "192.168.203.216"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-20",
       "IP": "192.168.203.217"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-21",
       "IP": "192.168.203.218"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-22",
       "IP": "192.168.203.219"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-23",
       "IP": "192.168.203.220"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-24",
       "IP": "192.168.203.221"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-25",
       "IP": "192.168.203.222"
     },
     {
-      "location": "Phoenix",
+      "location": "Chandler U1",
       "Controller": "HEID_640",
       "Name": "HP-26",
       "IP": "192.168.71.92"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-01",
       "IP": "10.127.100.101:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-02",
       "IP": "10.127.100.101:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-03",
       "IP": "10.127.100.102:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-04",
       "IP": "10.127.100.102:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-05",
       "IP": "10.127.100.103:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-06",
       "IP": "10.127.100.103:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-07",
       "IP": "10.127.100.104:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-08",
       "IP": "10.127.100.104:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-09",
       "IP": "10.127.100.105:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-10",
       "IP": "10.127.100.105:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-11",
       "IP": "10.127.100.106:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-12",
       "IP": "10.127.100.106:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-13",
       "IP": "10.127.100.107:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-14",
       "IP": "10.127.100.107:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-15",
       "IP": "10.127.100.108:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-16",
       "IP": "10.127.100.108:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-17",
       "IP": "10.127.100.109:19001"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-18",
       "IP": "10.127.100.109:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-19",
       "IP": "10.127.100.110:19000"
     },
     {
-      "location": "Chandler",
+      "location": "Chandler U2",
       "Controller": "HEID_640",
       "Name": "HC-20",
       "IP": "10.127.100.110:19001"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-21",
+      "IP": "10.127.100.121:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-22",
+      "IP": "10.127.100.122:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-23",
+      "IP": "10.127.100.123:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-24",
+      "IP": "10.127.100.124:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-25",
+      "IP": "10.127.100.125:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-26",
+      "IP": "10.127.100.126:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-27",
+      "IP": "10.127.100.127:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HC-28",
+      "IP": "10.127.100.128:19000"
+    },
+    {
+      "location": "Chandler U1",
+      "Controller": "HEID_640",
+      "Name": "HF-11",
+      "IP": "10.127.100.132:19000"
+    },
+    {
+      "location": "Chandler U2",
+      "Controller": "HEID_640",
+      "Name": "HF-12",
+      "IP": "10.127.100.133:19000"
     }
   ]
 }

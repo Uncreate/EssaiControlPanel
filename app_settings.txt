@@ -2,10 +2,10 @@
     "dialogPositions": [
         {
             "dialog": "MachOldToolsDlg",
-            "left": 1751,
-            "top": 695,
-            "right": 2182,
-            "bottom": 1073
+            "left": 264,
+            "top": 351,
+            "right": 2441,
+            "bottom": 729
         },
         {
             "dialog": "RfidReadDlg",
