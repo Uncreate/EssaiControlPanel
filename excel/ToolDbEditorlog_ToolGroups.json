@@ -106,8 +106,8 @@
     "numEnd": 19999,
     "numStartFin": 20000,
     "numEndFin": 20999,
-    "numCurr": 19008,
-    "numCurrFin": 20010
+    "numCurr": 19010,
+    "numCurrFin": 20012
     },
     {
     "dataName": "SS",
@@ -238,8 +238,8 @@
     "numEnd": 39999,
     "numStartFin": 40000,
     "numEndFin": 40999,
-    "numCurr": 39022,
-    "numCurrFin": 40084
+    "numCurr": 39023,
+    "numCurrFin": 40085
     },
     {
     "dataName": "TE",
