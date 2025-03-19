@@ -1,12 +1,24 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  CU035066A
-  CU035066B
-  CU035066C
-  CU035066D
-  CU035067A
-  CU035067B
+  AL039023A
+  AL039023B
+  AL039023C
+  S1039023A
+  S1039023B
+  S1039023C
+  CU039023A
+  CU039023B
+  CU039023C
+  AL040085A
+  AL040085B
+  AL040085C
+  S1040085A
+  S1040085B
+  S1040085C
+  CU040085A
+  CU040085B
+  CU040085C
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -27,10 +39,10 @@ Holders ignored:
   HSK63-SM075
   HSK63-10SM2
   HSK63-SM75-3.0
-Holders added: 
   HSK63-ER16x100_0-6x4"_Tap_Ext
   HSK63-ER16X100_.125x.250x6"_Tool_Ext Short
   HSK63-ER16X100_.125x.250x6"_Tool_Ext Long
+Holders added: 
 Shapes overwritten: 
 Shapes ignored: 
   0.0040" Dia x 0.065 LOC - 2FLT CD x 120 Deg
