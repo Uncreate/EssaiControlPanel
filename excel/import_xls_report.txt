@@ -1,6 +1,10 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
+  AL020012A
+  AL020012B
+  AL020012C
+  AL020012D
   S1020012A
   S1020012B
   S1020012C
@@ -13,6 +17,9 @@ Tools added:
   PG020012B
   PG020012C
   PG020012D
+  AL020013A
+  AL020013B
+  AL020013C
   S1020013A
   S1020013B
   S1020013C
@@ -206,5 +213,5 @@ Shapes ignored:
   0.0114" DIA x 0.1200 LOC - 2FLT CD x 130 Deg  
   0.0110" DIA x 0.1180 LOC - 2FLT CD x 140 Deg
   0.0070" DIA x 0.0790 LOC - 2FLT CD x 140 Deg
-Shapes added: 
   1/16 NPT Reamer x 6.00 OAL
+Shapes added: 
