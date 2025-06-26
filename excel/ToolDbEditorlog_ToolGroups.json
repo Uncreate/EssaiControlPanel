@@ -7,8 +7,8 @@
     "numEnd": 1999,
     "numStartFin": 2000,
     "numEndFin": 2999,
-    "numCurr": 1283,
-    "numCurrFin": 2472
+    "numCurr": 1287,
+    "numCurrFin": 2476
     },
     {
     "dataName": "BA",
@@ -239,7 +239,7 @@
     "numStartFin": 40000,
     "numEndFin": 40999,
     "numCurr": 39024,
-    "numCurrFin": 40091
+    "numCurrFin": 40101
     },
     {
     "dataName": "TE",
