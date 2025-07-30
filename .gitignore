@@ -10,3 +10,5 @@ Backups/*
 excel/.sort_xls.bat
 MasterToolDatabase_GOOD_BACKUP.txt
 MasterToolDatabase_test_backup.txt
+MasterToolDatabase.log.txt
+app_settings.txt
