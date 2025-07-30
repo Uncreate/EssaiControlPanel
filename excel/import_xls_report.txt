@@ -1,6 +1,36 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
+  AL004082A
+  AL004082B
+  AL004082C
+  AL004082D
+  AL004082E
+  CU004082A
+  CU004082B
+  CU004082C
+  CU004082D
+  CU004082E
+  PG004082A
+  PG004082B
+  PG004082C
+  PG004082D
+  PG004082E
+  AL004083A
+  AL004083B
+  AL004083C
+  AL004083D
+  AL004083E
+  CU004083A
+  CU004083B
+  CU004083C
+  CU004083D
+  CU004083E
+  PG004083A
+  PG004083B
+  PG004083C
+  PG004083D
+  PG004083E
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
@@ -25,8 +55,8 @@ Holders ignored:
   HSK63-ER16X100_.125x.250x6_Tool_Ext Short
   HSK63-ER16X100_.125x.250x6_Tool_Ext Long
   HSK63-PG25x100_.500x3_Tool_Ext
-Holders added: 
   PG25x100_ER11_EXT
+Holders added: 
 Shapes overwritten: 
 Shapes ignored: 
   0.0040" Dia x 0.065 LOC - 2FLT CD x 120 Deg
