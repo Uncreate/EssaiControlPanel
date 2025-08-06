@@ -18,8 +18,8 @@
     "numEnd": 3999,
     "numStartFin": 4000,
     "numEndFin": 4999,
-    "numCurr": 3073,
-    "numCurrFin": 4084
+    "numCurr": 3075,
+    "numCurrFin": 4086
     },
     {
     "dataName": "BU",
@@ -228,7 +228,7 @@
     "numStartFin": 38000,
     "numEndFin": 38999,
     "numCurr": 0,
-    "numCurrFin": 38004
+    "numCurrFin": 38008
     },
     {
     "dataName": "DC",
