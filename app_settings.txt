@@ -20,6 +20,13 @@
             "top": 165,
             "right": 1318,
             "bottom": 532
+        },
+        {
+            "dialog": "ToolOffsetDlg",
+            "left": 1096,
+            "top": 239,
+            "right": 1795,
+            "bottom": 910
         }
     ],
     "generalSettings": {
