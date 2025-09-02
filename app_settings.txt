@@ -9,10 +9,10 @@
         },
         {
             "dialog": "RfidReadDlg",
-            "left": 900,
-            "top": 70,
-            "right": 2412,
-            "bottom": 1415
+            "left": 794,
+            "top": 26,
+            "right": 2306,
+            "bottom": 1371
         },
         {
             "dialog": "ToolListVsMachineDlg",
