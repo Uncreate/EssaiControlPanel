@@ -8,7 +8,7 @@
     "numStartFin": 2000,
     "numEndFin": 2999,
     "numCurr": 1293,
-    "numCurrFin": 2486
+    "numCurrFin": 2488
     },
     {
     "dataName": "BA",
@@ -228,7 +228,7 @@
     "numStartFin": 38000,
     "numEndFin": 38999,
     "numCurr": 0,
-    "numCurrFin": 38010
+    "numCurrFin": 38011
     },
     {
     "dataName": "DC",
