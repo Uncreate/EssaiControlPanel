@@ -29,8 +29,8 @@
     "numEnd": 5999,
     "numStartFin": 6000,
     "numEndFin": 6999,
-    "numCurr": 5080,
-    "numCurrFin": 6069
+    "numCurr": 5083,
+    "numCurrFin": 6072
     },
     {
     "dataName": "LP",
@@ -206,7 +206,7 @@
     "numStartFin": 36000,
     "numEndFin": 36999,
     "numCurr": 0,
-    "numCurrFin": 36116
+    "numCurrFin": 36118
     },
     {
     "dataName": "RT",
