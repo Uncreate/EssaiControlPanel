@@ -1,15 +1,14 @@
 Tools overwritten: 
 Tools ignored: 
+  AL009000A
+  CU009000A
+  PL009000A
+  AL010000A
+  CU010000A
+  PL010000A
+  PG010000A
 Tools added: 
-  AL037080A
-  AL037080B
-  AL037080C
-  S1037080A
-  S1037080B
-  S1037080C
-  CU037080A
-  CU037080B
-  CU037080C
+  PG009000A
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
