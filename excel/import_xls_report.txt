@@ -1,7 +1,18 @@
 Tools overwritten: 
 Tools ignored: 
 Tools added: 
-  SP099004A
+  AL035072A
+  AL035072B
+  S1035072A
+  S1035072B
+  CU035072A
+  CU035072B
+  PG035072A
+  PG035072B
+  AL035073A
+  S1035073A
+  CU035073A
+  PG035073A
 Holders overwritten: 
 Holders ignored: 
   HSK50-ER16x100
